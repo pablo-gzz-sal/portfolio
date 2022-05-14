@@ -1,6 +1,7 @@
+import React, { useState } from "react";
 import "./App.css";
 import Header from "./components/header/Header";
-import React, { useState } from "react";
+import Profile  from "./components/profile/Profile";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -13,6 +14,7 @@ function App() {
         language={language}
         setLanguage={setLanguage}
       />
+      <Profile />
     </div>
   );
 }
