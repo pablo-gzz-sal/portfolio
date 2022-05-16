@@ -15,7 +15,7 @@ function Profile() {
         <p className="paragraphAbout">
           I value simple content structure, clean design patterns, and
           thoughtful interactions. Websites for desktop, tablet and mobile
-          versions with an excellent UX and UI experience
+          versions with an excellent UX and UI experience.
         </p>
         <button
           className="buttonAbout"

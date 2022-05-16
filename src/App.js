@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./App.css";
 import Header from "./components/header/Header";
 import Profile  from "./components/profile/Profile";
+import Skills from "./components/skills/Skills";
 import Footer from "./components/footer/Footer"
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         setLanguage={setLanguage}
       />
       <Profile />
+      <Skills />
       <Footer />
     </div>
   );
