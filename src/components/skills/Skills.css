@@ -20,8 +20,11 @@
 }
 
 .column {
-    border: 1px solid white;
     width: 90%;
+}
+
+.column1st{
+    border-right: 1px solid white;
 }
 
 .listColumn {
@@ -69,4 +72,12 @@
 
 .iconFirebase {
     margin-left: 33px;
+}
+
+.iconWP {
+    margin-left: 50px;
+}
+
+.iconWoo {
+    margin-left: 85px;
 }
