@@ -16,9 +16,57 @@
 .columnsSkills {
     display: flex;
     flex-direction: row;
+    width: 75%;
 }
 
 .column {
     border: 1px solid white;
     width: 90%;
+}
+
+.listColumn {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iconSkills {
+    color: white;
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.textAndIcon {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.textSkills {
+    font-size: 30px;
+}
+
+.iconJS {
+    margin-left: 43px;
+}
+
+.iconHTML {
+    margin-left: 18px;
+}
+
+.iconCSS {
+    margin-left: 5px;
+}
+
+.iconReact {
+    margin-left: 15px;
+}
+
+.iconHooks {
+    margin-left: 18px;
+}
+
+.iconFirebase {
+    margin-left: 33px;
 }
