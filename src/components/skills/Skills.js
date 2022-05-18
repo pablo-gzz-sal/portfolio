@@ -2,7 +2,7 @@ import React from "react";
 import "./Skills.css";
 import firebase from "../../svg/firebase.svg";
 import woocommerce from "../../images/woocommerce.png";
-import oxygen from "../../images/oxygenbuilder-logo.jpg"
+import oxygen from "../../images/oxygenbuilder-logo.jpg";
 
 function Skills() {
   return (
@@ -75,6 +75,18 @@ function Skills() {
               <li className="textSkills">Wix</li>
               <li className="iconSkills iconWix">
                 <i class="fab fa-wix fa-3x"></i>
+              </li>
+            </div>
+            <div className="textAndIcon">
+              <li className="textSkills">Google Ads</li>
+              <li className="iconSkills iconGoogle">
+                <i class="fab fa-google fa-3x"></i>
+              </li>
+            </div>
+            <div className="textAndIcon">
+              <li className="textSkills">SEO</li>
+              <li className="iconSkills iconSEO">
+                <i class="fab fa-yoast fa-3x"></i>
               </li>
             </div>
           </ul>

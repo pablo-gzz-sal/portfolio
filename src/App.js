@@ -3,7 +3,8 @@ import "./App.css";
 import Header from "./components/header/Header";
 import Profile  from "./components/profile/Profile";
 import Skills from "./components/skills/Skills";
-import Footer from "./components/footer/Footer"
+import Footer from "./components/footer/Footer";
+import FreelanceAndProjects from "./components/freelanceAndProjects/FreelanceAndProjects";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -18,6 +19,7 @@ function App() {
       />
       <Profile />
       <Skills />
+      <FreelanceAndProjects />
       <Footer />
     </div>
   );
