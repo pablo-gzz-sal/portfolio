@@ -16,8 +16,8 @@ function Language( {language, setLanguage}) {
         onClick={handleChange}
       />
       <label for="language" className="label">
-        <span class="spanish">Sp</span>
-        <span class="english">En</span> <div class="ball"></div>
+        <span class="spanish">En</span>
+        <span class="english">Sp</span> <div class="ball"></div>
       </label>
     </div>
   );

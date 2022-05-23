@@ -1,9 +1,12 @@
 import React from "react";
 import "./FreelanceAndProjects.css";
-import helloProject from "../../images/helloProject.png"
-import hotelProject from "../../images/hotelProject.png"
-import gifsProject from "../../images/gifsProject.png"
-import devsProject from "../../images/devsProject.png"
+import firebase from "../../svg/firebase.svg";
+import woocommerce from "../../images/woocommerce.png";
+import oxygen from "../../images/oxygenbuilder-logo.jpg";
+import helloProject from "../../images/helloProject.png";
+import hotelProject from "../../images/hotelProject.png";
+import gifsProject from "../../images/gifsProject.png";
+import devsProject from "../../images/devsProject.png";
 
 function FreelanceAndProjects() {
   return (
@@ -12,13 +15,24 @@ function FreelanceAndProjects() {
         <h2 className="titleProjects">Projects</h2>
         <div className="projects">
           <span className="individualProject">
-            <a href="https://vigorous-goldberg-d63323.netlify.app/" target="_blank"  className="projectImg">
-              <img src={helloProject} alt="project image" className="projectImg" />
-              <h3 className="titleProjectInd"></h3>
+            <a
+              href="https://vigorous-goldberg-d63323.netlify.app/"
+              target="_blank"
+            >
+              <img
+                src={helloProject}
+                alt="project image"
+                className="projectImg"
+              />
+              <h3 className="titleProjectInd">Hello Pale Blue Dot</h3>
               <span className="languageProjects">
-                <lu>
-                  <li className="languageInd"></li>
-                  <li className="languageInd"></li>
+                <lu className="listLan">
+                  <li className="languageInd">
+                    <i class="fab fa-html5 fa-3x"></i>
+                  </li>
+                  <li className="languageInd">
+                    <i class="fab fa-css3 fa-3x"></i>
+                  </li>
                   <li className="languageInd"></li>
                 </lu>
               </span>
@@ -27,12 +41,21 @@ function FreelanceAndProjects() {
           <span className="individualProject">
             <a href="https://csb-ro4pj.netlify.app/" target="_blank">
               <img src={hotelProject} alt="" className="projectImg" />
-              <h3 className="titleProjectInd"></h3>
+              <h3 className="titleProjectInd">Hotel Rooms Reservations</h3>
               <span className="languageProjects">
-                <lu>
-                  <li className="languageInd"></li>
-                  <li className="languageInd"></li>
-                  <li className="languageInd"></li>
+                <lu className="listLan">
+                  <li className="languageInd">
+                    <i class="fab fa-html5 fa-3x"></i>
+                  </li>
+                  <li className="languageInd">
+                    <i class="fab fa-css3 fa-3x"></i>
+                  </li>
+                  <li className="languageInd">
+                    <i class="fab fa-js fa-3x"></i>
+                  </li>
+                  <li className="languageInd">
+                    <i class="fab fa-react fa-3x"></i>
+                  </li>
                 </lu>
               </span>
             </a>
@@ -40,12 +63,21 @@ function FreelanceAndProjects() {
           <span className="individualProject">
             <a href="https://proyecto-prueba-e30fa.web.app/" target="_blank">
               <img src={gifsProject} alt="" className="projectImg" />
-              <h3 className="titleProjectInd"></h3>
+              <h3 className="titleProjectInd">GIFOS</h3>
               <span className="languageProjects">
-                <lu>
-                  <li className="languageInd"></li>
-                  <li className="languageInd"></li>
-                  <li className="languageInd"></li>
+                <lu className="listLan">
+                  <li className="languageInd">
+                    <i class="fab fa-html5 fa-3x"></i>
+                  </li>
+                  <li className="languageInd">
+                    <i class="fab fa-css3 fa-3x"></i>
+                  </li>
+                  <li className="languageInd">
+                    <i class="fab fa-js fa-3x"></i>
+                  </li>
+                  <li className="languageInd">
+                    <i class="fab fa-react fa-3x"></i>
+                  </li>
                 </lu>
               </span>
             </a>
@@ -53,73 +85,104 @@ function FreelanceAndProjects() {
           <span className="individualProject">
             <a href="https://csb-efggn.netlify.app/" target="_blank">
               <img src={devsProject} alt="" className="projectImg" />
-              <h3 className="titleProjectInd"></h3>
+              <h3 className="titleProjectInd">Devs United</h3>
               <span className="languageProjects">
-                <lu>
-                  <li className="languageInd"></li>
-                  <li className="languageInd"></li>
-                  <li className="languageInd"></li>
+                <lu className="listLan">
+                  <li className="languageInd">
+                    <i class="fab fa-html5 fa-3x"></i>
+                  </li>
+                  <li className="languageInd">
+                    <i class="fab fa-css3 fa-3x"></i>
+                  </li>
+                  <li className="languageInd">
+                    <i class="fab fa-js fa-3x"></i>
+                  </li>
+                  <li className="languageInd">
+                    <i class="fab fa-react fa-3x"></i>
+                  </li>
+                  <li className="languageInd">
+                    <img src={firebase} alt="firebase logo" />
+                  </li>
                 </lu>
               </span>
             </a>
           </span>
         </div>
       </div>
-      <div className="freelanceSection">
-        <h2 className="titleFreelance">Freelance</h2>
-        <div className="freelance">
-          <span className="individualFreelance">
-            <a href="" target="_blank">
-              <img src="" alt="" className="freelanceImg" />
-              <h3 className="titleFreelanceInd"></h3>
-              <span className="languageFreelance">
-                <lu>
-                  <li className="languageInd"></li>
-                  <li className="languageInd"></li>
-                  <li className="languageInd"></li>
+      <div className="projectsSection">
+        <h2 className="titleProjects">Freelance</h2>
+        <div className="projects">
+          <span className="individualProject">
+            <a
+              href="https://vigorous-goldberg-d63323.netlify.app/"
+              target="_blank"
+            >
+              <img
+                src={helloProject}
+                alt="project image"
+                className="projectImg"
+              />
+              <h3 className="titleProjectInd">The Daltonist</h3>
+              <span className="languageProjects">
+                <lu className="listLan">
+                  <li className="languageInd">
+                    <i class="fab fa-html5 fa-3x"></i>
+                  </li>
+                  <li className="languageInd">
+                    <i class="fab fa-css3 fa-3x"></i>
+                  </li>
+                  <li className="languageInd">
+                    <i class="fab fa-wordpress fa-3x"></i>
+                  </li>
+                  <li className="languageInd">
+                    <i class="fab fa-google fa-3x"></i>
+                  </li>
+                  <li className="languageInd">
+                    <i class="fab fa-yoast fa-3x"></i>
+                  </li>
                 </lu>
               </span>
             </a>
           </span>
-          <span className="individualFreelance">
-            <a href="" target="_blank">
-              <img src="" alt="" className="freelanceImg" />
-              <h3 className="titleFreelanceInd"></h3>
-              <span className="languageFreelance">
-                <lu>
-                  <li className="languageInd"></li>
-                  <li className="languageInd"></li>
-                  <li className="languageInd"></li>
+          <span className="individualProject">
+            <a href="https://csb-ro4pj.netlify.app/" target="_blank">
+              <img src={hotelProject} alt="" className="projectImg" />
+              <h3 className="titleProjectInd">Fetivi and Furesti</h3>
+              <span className="languageProjects">
+                <lu className="listLan">
+                  <li className="languageInd">
+                    <i class="fab fa-wix fa-3x"></i>
+                  </li>
+                  <li className="languageInd">
+                    <i class="fab fa-google fa-3x"></i>
+                  </li>
                 </lu>
               </span>
             </a>
           </span>
-          <span className="individualFreelance">
-            <a href="" target="_blank">
-              <img src="" alt="" className="freelanceImg" />
-              <h3 className="titleFreelanceInd"></h3>
-              <span className="languageFreelance">
-                <lu>
-                  <li className="languageInd"></li>
-                  <li className="languageInd"></li>
-                  <li className="languageInd"></li>
+          <span className="individualProject">
+            <a href="https://proyecto-prueba-e30fa.web.app/" target="_blank">
+              <img src={gifsProject} alt="" className="projectImg" />
+              <h3 className="titleProjectInd">Diocletian's Dream</h3>
+              <span className="languageProjects">
+                <lu className="listLan">
+                <li className="languageInd">
+                    <i class="fab fa-html5 fa-3x"></i>
+                  </li>
+                  <li className="languageInd">
+                    <i class="fab fa-css3 fa-3x"></i>
+                  </li>
+                  <li className="languageInd">
+                    <i class="fab fa-wordpress fa-3x"></i>
+                  </li>
+                  <li className="languageInd">
+                    <i class="fab fa-yoast fa-3x"></i>
+                  </li>
                 </lu>
               </span>
             </a>
           </span>
-          <span className="individualFreelance">
-            <a href="" target="_blank">
-              <img src="" alt="" className="freelanceImg" />
-              <h3 className="titleFreelanceInd"></h3>
-              <span className="languageFreelance">
-                <lu>
-                  <li className="languageInd"></li>
-                  <li className="languageInd"></li>
-                  <li className="languageInd"></li>
-                </lu>
-              </span>
-            </a>
-          </span>
+          
         </div>
       </div>
     </section>

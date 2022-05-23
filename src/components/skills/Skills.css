@@ -9,6 +9,11 @@
     align-items: center;
 }
 
+.skillsLight {
+    background-color: white;
+    color: black;
+}
+
 .titleSkills {
     font-size: 50px;
 }
@@ -27,6 +32,10 @@
     border-right: 1px solid white;
 }
 
+.column1stWhite {
+    border-right: 1px solid black;
+}
+
 .listColumn {
     list-style: none;
     display: flex;
@@ -39,6 +48,10 @@
     width: 50px;
     height: 50px;
     margin-top: 10px;
+}
+
+.iconLight {
+    color: black;
 }
 
 .textAndIcon {

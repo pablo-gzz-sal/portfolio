@@ -11,24 +11,59 @@
 
 .projectsSection {
     height: 65em;
-    width: 100%;
+    width: 100%;    
 }
 
 .projects {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .titleProjects {
     font-size: 50px;
+    margin-left: 125px;
+
 }
 
 .individualProject {
     position: relative;
+    width: 40%;
+    margin-bottom: 50px;
 }
 
 .projectImg{
-    width: 45%;
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    opacity: 40%;
+}
+
+.titleProjectInd {
+    color: white;
+    position: absolute; 
+    top: 15%;
+    left: 5%;
+    font-size: 40px;
+    font-family: 500;
+}
+
+.languageProjects {
+    color: white;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+
+.listLan {
+    display: flex;
+    flex-direction: row;
+}
+
+.languageInd{
+    margin-right: 20px;
 }
 
 .freelanceSection {

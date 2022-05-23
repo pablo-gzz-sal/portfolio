@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import "./App.css";
 import Header from "./components/header/Header";
-import Profile  from "./components/profile/Profile";
+import Profile from "./components/profile/Profile";
 import Skills from "./components/skills/Skills";
 import Footer from "./components/footer/Footer";
 import FreelanceAndProjects from "./components/freelanceAndProjects/FreelanceAndProjects";
+import Contact from "./components/contact/Contact";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -18,8 +19,14 @@ function App() {
         setLanguage={setLanguage}
       />
       <Profile />
-      <Skills />
+      <Skills
+        darkMode={darkMode}
+        setDarkMode={setDarkMode}
+        language={language}
+        setLanguage={setLanguage}
+      />
       <FreelanceAndProjects />
+      <Contact />
       <Footer />
     </div>
   );

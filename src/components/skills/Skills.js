@@ -4,17 +4,19 @@ import firebase from "../../svg/firebase.svg";
 import woocommerce from "../../images/woocommerce.png";
 import oxygen from "../../images/oxygenbuilder-logo.jpg";
 
-function Skills() {
+function Skills({ darkMode, setDarkMode, language, setLanguage }) {
   return (
-    <section className="skills">
+    <section className={darkMode ? "skillsLight skills" : "skills"}>
       <h2 className="titleSkills">Technical Skills</h2>
       <div className="columnsSkills">
-        <span className="column column1st">
+        <span
+          className={darkMode ? "column column1stWhite" : "column column1st"}
+        >
           <h3 className="titleColumn"></h3>
           <ul className="listColumn">
             <div className="textAndIcon">
               <li className="textSkills">HTML</li>
-              <li className="iconSkills iconHTML">
+              <li className={`iconSkills iconHTML ${darkMode && "iconLight"}`}>
                 <i class="fab fa-html5 fa-3x"></i>
               </li>
             </div>

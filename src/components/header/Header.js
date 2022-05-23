@@ -4,15 +4,24 @@ import DarkMode from "../darkMode/DarkMode";
 import Language from "../language/Language";
 import logo from "../../images/logo_transparent.png";
 import bgImg from "../../images/bgImg.jpg";
+import bgWhite from "../../images/bgWhite.jpg";
 
 function Header({ darkMode, setDarkMode, language, setLanguage }) {
   return (
     <section className="homePage">
-      <img src={bgImg} alt="homepage Image" className="bgImg" />
-      <h1 className="titleHP">Hi! I'm Pablo and I'm a front-end developer</h1>
+      <img
+        src={darkMode ? bgWhite : bgImg}
+        alt="homepage Image"
+        className="bgImg"
+      />
+      <h1 className={`titleHP ${darkMode && "titleHPLight"}`}>
+        {language
+          ? "Hola! Soy Pablo y soy un desarrollador front-end"
+          : "Hi! I'm Pablo and I'm a front-end developer"}
+      </h1>
       <span className="arrowHP">
         <a href="#aboutme" target="_self">
-        <i class="fal fa-arrow-down arrow fa-2x"></i>
+          <i class= {darkMode ? "fal fa-arrow-down arrowLight fa-2x" : "fal fa-arrow-down arrow fa-2x"}></i>
         </a>
       </span>
       <header className="header">
@@ -22,16 +31,16 @@ function Header({ darkMode, setDarkMode, language, setLanguage }) {
         <div className="menuBar">
           <ul class="list">
             <li class="list_item">
-              <a href="#episodios">About me</a>
+              <a href="#episodios">{language ? "Sobre mí" : "About me"}</a>
             </li>
             <li class="list_item">
-              <a href="#nosotros">Skills</a>
+              <a href="#nosotros">{language ? "Habilidades" : "Skills"}</a>
             </li>
             <li class="list_item">
-              <a href="#entrevistas">Projects</a>
+              <a href="#entrevistas">{language ? "Proyectos" : "Projects"}</a>
             </li>
             <li class="list_item">
-              <a href="#topicos">Contact me</a>
+              <a href="#topicos">{language ? "Contactame" : "Contact me"}</a>
             </li>
           </ul>
         </div>
