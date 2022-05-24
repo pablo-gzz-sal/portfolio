@@ -7,6 +7,9 @@ import helloProject from "../../images/helloProject.png";
 import hotelProject from "../../images/hotelProject.png";
 import gifsProject from "../../images/gifsProject.png";
 import devsProject from "../../images/devsProject.png";
+import daltonist from "../../images/daltonist.PNG"
+import fetivi from "../../images/fetivi.PNG"
+import diocletians from "../../images/diocletians.PNG"
 
 function FreelanceAndProjects() {
   return (
@@ -61,7 +64,7 @@ function FreelanceAndProjects() {
             </a>
           </span>
           <span className="individualProject">
-            <a href="https://proyecto-prueba-e30fa.web.app/" target="_blank">
+            <a href="https://csb-efggn.netlify.app/" target="_blank">
               <img src={gifsProject} alt="" className="projectImg" />
               <h3 className="titleProjectInd">GIFOS</h3>
               <span className="languageProjects">
@@ -83,7 +86,7 @@ function FreelanceAndProjects() {
             </a>
           </span>
           <span className="individualProject">
-            <a href="https://csb-efggn.netlify.app/" target="_blank">
+            <a href="https://proyecto-prueba-e30fa.web.app/" target="_blank">
               <img src={devsProject} alt="" className="projectImg" />
               <h3 className="titleProjectInd">Devs United</h3>
               <span className="languageProjects">
@@ -114,11 +117,11 @@ function FreelanceAndProjects() {
         <div className="projects">
           <span className="individualProject">
             <a
-              href="https://vigorous-goldberg-d63323.netlify.app/"
+              href="https://thedaltonist.com/en/"
               target="_blank"
             >
               <img
-                src={helloProject}
+                src={daltonist}
                 alt="project image"
                 className="projectImg"
               />
@@ -145,8 +148,8 @@ function FreelanceAndProjects() {
             </a>
           </span>
           <span className="individualProject">
-            <a href="https://csb-ro4pj.netlify.app/" target="_blank">
-              <img src={hotelProject} alt="" className="projectImg" />
+            <a href="https://www.fetiviandfuresti.com/" target="_blank">
+              <img src={fetivi} alt="" className="projectImg" />
               <h3 className="titleProjectInd">Fetivi and Furesti</h3>
               <span className="languageProjects">
                 <lu className="listLan">
@@ -161,8 +164,8 @@ function FreelanceAndProjects() {
             </a>
           </span>
           <span className="individualProject">
-            <a href="https://proyecto-prueba-e30fa.web.app/" target="_blank">
-              <img src={gifsProject} alt="" className="projectImg" />
+            <a href="https://www.diocletiansdream.com/" target="_blank">
+              <img src={diocletians} alt="" className="projectImg" />
               <h3 className="titleProjectInd">Diocletian's Dream</h3>
               <span className="languageProjects">
                 <lu className="listLan">

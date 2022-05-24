@@ -16,8 +16,8 @@ function DarkMode( {darkMode, setDarkMode}) {
         onClick={handleChange}
       />
       <label for="darkAndLight" className="label">
-        <i class="fas fa-moon"></i>
         <i class="fas fa-sun"></i> <div class="ball"></div>
+        <i class="fas fa-moon"></i>
       </label>
     </div>
   );

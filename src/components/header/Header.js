@@ -30,16 +30,16 @@ function Header({ darkMode, setDarkMode, language, setLanguage }) {
         </div>
         <div className="menuBar">
           <ul class="list">
-            <li class="list_item">
+            <li class={`list_item ${darkMode ? "list_itemLight" : ""}`}>
               <a href="#episodios">{language ? "Sobre mí" : "About me"}</a>
             </li>
-            <li class="list_item">
+            <li class={`list_item ${darkMode ? "list_itemLight" : ""}`}>
               <a href="#nosotros">{language ? "Habilidades" : "Skills"}</a>
             </li>
-            <li class="list_item">
+            <li class={`list_item ${darkMode ? "list_itemLight" : ""}`}>
               <a href="#entrevistas">{language ? "Proyectos" : "Projects"}</a>
             </li>
-            <li class="list_item">
+            <li class={`list_item ${darkMode ? "list_itemLight" : ""}`}>
               <a href="#topicos">{language ? "Contactame" : "Contact me"}</a>
             </li>
           </ul>

@@ -81,6 +81,11 @@
   line-height: 28px;
 }
 
+.list_itemLight a {
+  color: black;
+  font-weight: 800;
+}
+
 .logoImg {
   width: 150px;
   height: 150px;
