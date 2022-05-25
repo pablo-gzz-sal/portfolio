@@ -53,7 +53,7 @@ function Skills({ darkMode, language }) {
             </div>
           </ul>
         </span>
-        <span className="column">
+        <span className="column columnFreelance">
           <h3 className="titleColumn"></h3>
           <ul className="listColumn">
             <div className="textAndIcon">

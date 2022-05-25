@@ -62,3 +62,43 @@
     margin-left: 30px;
     font-size: 20px;
 }
+
+/*************Mobile*************/
+
+@media screen and (max-width: 750px) {
+
+    .profile {  
+        flex-direction: column;
+    }
+
+    .imageAbout {
+        height: 250px;
+        width: 250px;
+        margin-left: 20px;
+        margin-right: 40px;
+    }
+
+    .aboutInfo {
+        margin-left: 20px;
+    }
+
+    .titleAbout {
+        margin-left: 0px;
+        font-size: 25px;
+        width: 95%;
+    }
+
+    .buttonAbout {
+        padding-left: 145px;
+        padding-right: 145px;
+        margin-left: 0px;
+    }
+
+    .paragraphAbout {
+        width: 95%;
+        margin-left: 0px;
+        font-size: 20px;
+    }
+    
+
+}

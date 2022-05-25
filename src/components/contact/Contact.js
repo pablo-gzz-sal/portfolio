@@ -10,8 +10,8 @@ function Contact({darkMode, language}) {
                 <span className="containerInd">
                     <Form darkMode={darkMode} language={language} />
                 </span>
-                <span className="containerInd">
-                    <div className="contactInd">
+                <span className="containerInd containerInfoPer">
+                    <div className="contactInd contactEmail">
                     <i class="fas fa-envelope fa-3x"></i>
                     <h3>Email</h3>
                     <p>pablo.gzz.sal@gmail.com</p>

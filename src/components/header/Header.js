@@ -21,12 +21,46 @@ function Header({ darkMode, setDarkMode, language, setLanguage }) {
       </h1>
       <span className="arrowHP">
         <a href="#aboutme" target="_self">
-          <i class= {darkMode ? "fal fa-arrow-down arrowLight fa-2x" : "fal fa-arrow-down arrow fa-2x"}></i>
+          <i
+            class={
+              darkMode
+                ? "fal fa-arrow-down arrowLight fa-2x"
+                : "fal fa-arrow-down arrow fa-2x"
+            }
+          ></i>
         </a>
       </span>
       <header className="header">
         <div className="logo">
           <img src={logo} alt="logo" className="logoImg" />
+        </div>
+        <div class="menu_mobile">
+          <input id="checkbox" type="checkbox" />
+          <label for="checkbox" className="linesMenu">
+            <span class="line1"></span>
+            <span class="line2"></span>
+            <span class="line3"></span>
+          </label>
+          <div className="nav_ani">
+            <ul class="listNavigation">
+              <li class={`list_item ${darkMode ? "list_itemLight" : ""}`}>
+                <a href="#episodios">{language ? "Sobre mí" : "About me"}</a>
+              </li>
+              <li class={`list_item ${darkMode ? "list_itemLight" : ""}`}>
+                <a href="#nosotros">{language ? "Habilidades" : "Skills"}</a>
+              </li>
+              <li class={`list_item ${darkMode ? "list_itemLight" : ""}`}>
+                <a href="#entrevistas">{language ? "Proyectos" : "Projects"}</a>
+              </li>
+              <li class={`list_item ${darkMode ? "list_itemLight" : ""}`}>
+                <a href="#topicos">{language ? "Contactame" : "Contact me"}</a>
+              </li>
+            </ul>
+            <div className="darkAndLanMobile">
+              <DarkMode darkMode={darkMode} setDarkMode={setDarkMode} />
+              <Language language={language} setLanguage={setLanguage} />
+            </div>
+          </div>
         </div>
         <div className="menuBar">
           <ul class="list">

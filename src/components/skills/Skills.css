@@ -106,3 +106,77 @@
 .iconOxygen {
     margin-left: 30px;
 }
+
+/*************Mobile*************/
+
+@media screen and (max-width: 750px) {
+
+    .columnsSkills {
+        width: 100%;
+    }
+
+    .column {
+        width: 100%;
+    }
+
+    .column1st {
+        padding-right: 30px;
+    }
+
+    .column1stWhite {
+        padding-right: 30px;
+    }
+
+    .columnFreelance {
+        margin-right: 20px;
+    }
+
+    .textSkills {
+        font-size: 20px;
+    }
+
+    .iconJS {
+        margin-left: 20px;
+    }
+    
+    .iconHTML {
+        margin-left: 10px;
+    }
+    
+    .iconCSS {
+        margin-left: 5px;
+    }
+    
+    .iconReact {
+        margin-left: 7px;
+    }
+    
+    .iconHooks {
+        margin-left: 8px;
+    }
+    
+    .iconFirebase {
+        margin-left: 22px;
+    }
+    
+    .iconWP {
+        margin-left: 25px;
+    }
+    
+    .iconWoo {
+        margin-left: 45px;
+    }
+    
+    .iconGoogle {
+        margin-left: 30px;
+    }
+    
+    .iconSEO {
+        margin-left: 5px;
+    }
+    
+    .iconOxygen {
+        margin-left: 12px;
+    }
+
+}

@@ -20,3 +20,24 @@
 .socialMedia a i {
     padding-top: 6px;
 }
+
+/*************Mobile*************/
+
+@media screen and (max-width: 750px) {
+
+    .socialMedia a {
+        text-decoration: none;
+        color: white;
+        width: 20px;
+        margin-right: 20px;
+       
+    }
+
+    .footer p {
+        margin-left: 10px;
+        color: white;
+    }
+
+
+
+}
