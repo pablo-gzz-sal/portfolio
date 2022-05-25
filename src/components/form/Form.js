@@ -2,7 +2,7 @@ import React, { useRef, useState } from "react";
 import "./Form.css";
 import emailjs from "emailjs-com";
 
-function Form() {
+function Form({ darkMode, language }) {
   const [name, setName] = useState("");
   const [lastName, setLastName] = useState("");
   const [email, setEmail] = useState("");
@@ -27,7 +27,7 @@ function Form() {
         .then((error) => console.log(error));
 
       setName("");
-      setLastName("")
+      setLastName("");
       setEmail("");
       setMessage("");
       setEmailSent(true);
@@ -38,22 +38,22 @@ function Form() {
 
   return (
     <section className="form">
-      <label for="firstName">First name</label>
+      <label for="firstName">{language ? "Nombre" : "First Name"}</label>
       <input
         type="text"
         name="firstName"
-        className="inputForm firstName"
-        placeholder="First Name"
+        className={`inputForm firstName ${darkMode ? "inputFormLight" : ""}`}
+        placeholder={language ? "Nombre" : "First Name"}
         tabIndex="1"
         value={name}
         onChange={(e) => setName(e.target.value)}
       />
-      <label for="lastName">Last name</label>
+      <label for="lastName">{language ? "Apellido" : "Last Name"}</label>
       <input
         type="text"
         name="lastName"
-        className="inputForm lastName"
-        placeholder="Last Name"
+        className={`inputForm lastName ${darkMode ? "inputFormLight" : ""}`}
+        placeholder={language ? "Apellido" : "Last Name"}
         tabIndex="2"
         value={lastName}
         onChange={(e) => setLastName(e.target.value)}
@@ -62,24 +62,31 @@ function Form() {
       <input
         type="email"
         name="email"
-        className="inputForm email"
+        className={`inputForm email ${darkMode ? "inputFormLight" : ""}`}
         placeholder="example@corp.com"
         value={email}
         tabIndex="3"
         onChange={(e) => setEmail(e.target.value)}
       />
-      <label for="message">Message</label>
+      <label for="message">{language ? "Mensaje" : "Message"}</label>
       <textarea
-        placeholder="Your message"
+        placeholder={language ? "Mensaje" : "Message"}
         name="message"
-        className="inputForm message"
+        className={`inputForm message ${darkMode ? "inputFormLight" : ""}`}
         value={message}
         tabIndex="4"
         onChange={(e) => setMessage(e.target.value)}
       ></textarea>
-      <button onClick={submit} className="buttonForm">Send Message</button>
+      <button
+        onClick={submit}
+        className={`buttonForm ${darkMode ? "buttonFormLight" : ""}`}
+      >
+        {language ? "Mandar mensaje" : "Send message"}
+      </button>
       <span className={emailSent ? "visible" : "notVisible"}>
-        Thank you for your message, we will be in touch in no time!
+        {language
+          ? "Gracias por su mensaje, estare pronto en contacto!"
+          : "Thank you for your message, I will be in touch in no time!"}
       </span>
     </section>
   );

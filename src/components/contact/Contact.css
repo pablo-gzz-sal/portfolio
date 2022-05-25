@@ -6,10 +6,27 @@
     margin-top: -45px;
 }
 
+.contactLight {
+    background-color: white;
+    color: black;
+    font-weight: 700;
+}
+
 .titleContact {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 100px;
     font-size: 50px;
+}
+
+.containerContactInfo {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.contactInd {
+    margin-bottom: 60px;
 }

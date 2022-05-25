@@ -16,8 +16,8 @@ function Header({ darkMode, setDarkMode, language, setLanguage }) {
       />
       <h1 className={`titleHP ${darkMode && "titleHPLight"}`}>
         {language
-          ? "Hola! Soy Pablo y soy un desarrollador front-end"
-          : "Hi! I'm Pablo and I'm a front-end developer"}
+          ? "Hola! Soy Pablo y soy un desarrollador front-end."
+          : "Hi! I'm Pablo and I'm a front-end developer."}
       </h1>
       <span className="arrowHP">
         <a href="#aboutme" target="_self">

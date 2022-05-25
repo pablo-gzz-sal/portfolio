@@ -18,16 +18,11 @@ function App() {
         language={language}
         setLanguage={setLanguage}
       />
-      <Profile />
-      <Skills
-        darkMode={darkMode}
-        setDarkMode={setDarkMode}
-        language={language}
-        setLanguage={setLanguage}
-      />
-      <FreelanceAndProjects />
-      <Contact />
-      <Footer />
+      <Profile darkMode={darkMode} language={language} />
+      <Skills darkMode={darkMode} language={language} />
+      <FreelanceAndProjects darkMode={darkMode} language={language} />
+      <Contact darkMode={darkMode} language={language} />
+      <Footer darkMode={darkMode} language={language} />
     </div>
   );
 }

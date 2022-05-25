@@ -9,6 +9,10 @@
     padding-top: 100px;
 }
 
+.lightPro {
+    background-color: white;
+}
+
 .projectsSection {
     height: 65em;
     width: 100%;    
@@ -23,8 +27,8 @@
 
 .titleProjects {
     font-size: 50px;
-    margin-left: 125px;
-
+    margin-left: 135px;
+    margin-bottom: 100px;
 }
 
 .individualProject {
@@ -39,6 +43,7 @@
     object-fit: cover;
     border-radius: 10px;
     opacity: 40%;
+    box-shadow: 10px 10px 24px 0px rgba(255,255,255,.2);
 }
 
 .titleProjectInd {
@@ -67,10 +72,11 @@
 }
 
 .freelanceSection {
-    height: 65em;
+    margin-top: 400px;
 }
 
 .titleFreelance {
     font-size: 50px;
+    margin-top: -150px;
 }
 

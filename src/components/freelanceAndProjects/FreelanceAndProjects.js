@@ -11,11 +11,11 @@ import daltonist from "../../images/daltonist.PNG"
 import fetivi from "../../images/fetivi.PNG"
 import diocletians from "../../images/diocletians.PNG"
 
-function FreelanceAndProjects() {
+function FreelanceAndProjects({darkMode, language}) {
   return (
-    <section className="freelanceAndProjects">
+    <section className="freelanceAndProjects" >
       <div className="projectsSection">
-        <h2 className="titleProjects">Projects</h2>
+        <h2 className="titleProjects">{language ? "Proyectos" : "Projects"}</h2>
         <div className="projects">
           <span className="individualProject">
             <a
@@ -112,8 +112,8 @@ function FreelanceAndProjects() {
           </span>
         </div>
       </div>
-      <div className="projectsSection">
-        <h2 className="titleProjects">Freelance</h2>
+      <div className="projectsSection freelanceSection">
+        <h2 className="titleProjects titleFreelance">Freelance</h2>
         <div className="projects">
           <span className="individualProject">
             <a

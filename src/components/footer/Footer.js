@@ -7,31 +7,19 @@ function Footer() {
       <p>© 2022 - Pablo Gonzalez Salcido</p>
       <div class="socialMedia">
         <a
-          href="https://open.spotify.com/show/0Giuw6eNbTzP9CDZODDrA2"
+          href="https://github.com/pablo-gzz-sal"
           target="_blank"
         >
-          <i class="fab fa-spotify fa-2x"></i>
+          <i class="fab fa-github fa-2x"></i>
         </a>
         <a
-          href="https://www.instagram.com/front.endevelopment/"
+          href="https://www.linkedin.com/in/pablo-gonzalez-salcido-bb1a491a9/"
           target="_blank"
         >
-          <i class="fab fa-instagram fa-2x"></i>
+          <i class="fab fa-linkedin-in fa-2x"></i>
         </a>
-        <a href="https://twitter.com/trabajofrontend" target="_blank">
+        <a href="https://twitter.com/salcidopablo7" target="_blank">
           <i class="fab fa-twitter fa-2x"></i>
-        </a>
-        <a
-          href="https://www.facebook.com/Front-End-576361916163262"
-          target="_blank"
-        >
-          <i class="fab fa-facebook-f fa-2x"></i>
-        </a>
-        <a
-          href="https://telegramchannels.me/channels/fedevelopment"
-          target="_blank"
-        >
-          <i class="fab fa-telegram fa-2x"></i>
         </a>
       </div>
     </footer>
