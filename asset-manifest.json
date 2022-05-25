@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7fac61f3.css",
+    "main.js": "/static/js/main.e2500107.js",
+    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "static/media/daltonist.PNG": "/static/media/daltonist.ebda1c0f17e7c8a0fb72.PNG",
+    "static/media/diocletians.PNG": "/static/media/diocletians.91dce104b9d004002a70.PNG",
+    "static/media/fetivi.PNG": "/static/media/fetivi.738f8f34ca73e9843363.PNG",
+    "static/media/hotelProject.png": "/static/media/hotelProject.a003d00c4670f2a6aafc.png",
+    "static/media/gifsProject.png": "/static/media/gifsProject.5d511b10be765189705a.png",
+    "static/media/pabloPicPort.png": "/static/media/pabloPicPort.b9da8932c03c1ee99cc3.png",
+    "static/media/bgWhite.jpg": "/static/media/bgWhite.1d16739512cd9b9972cf.jpg",
+    "static/media/helloProject.png": "/static/media/helloProject.abbca6ccd8b2d877581a.png",
+    "static/media/bgImg.jpg": "/static/media/bgImg.af8e6bfa889ade7b1d10.jpg",
+    "static/media/devsProject.png": "/static/media/devsProject.aeb6e0d9f6d4e4f97074.png",
+    "static/media/woocommerce.png": "/static/media/woocommerce.6f0f051ffad8854a73a1.png",
+    "static/media/oxygenbuilder-logo.jpg": "/static/media/oxygenbuilder-logo.02133055bcb2957bbf29.jpg",
+    "static/media/logo_transparent.png": "/static/media/logo_transparent.7d04632758ff141dd430.png",
+    "static/media/firebase.svg": "/static/media/firebase.5a0dfe3c9440a993e3f47e0cb704561e.svg",
+    "index.html": "/index.html",
+    "main.7fac61f3.css.map": "/static/css/main.7fac61f3.css.map",
+    "main.e2500107.js.map": "/static/js/main.e2500107.js.map",
+    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7fac61f3.css",
+    "static/js/main.e2500107.js"
+  ]
+}
