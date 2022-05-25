@@ -10,7 +10,7 @@
 }
 
 .skillsLight {
-    background-color: white;
+    background-color: #E9E9E9;
     color: black;
 }
 
@@ -48,6 +48,7 @@
     width: 50px;
     height: 50px;
     margin-top: 10px;
+    
 }
 
 .iconLight {
@@ -59,8 +60,22 @@
     margin-bottom: 35px;
 }
 
+@keyframes skillsAni {
+    from {
+      margin-left: 100%;
+      width: 150%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+
 .textSkills {
     font-size: 30px;
+    animation: skillsAni 1.5s ease;
 }
 
 .iconJS {

@@ -95,6 +95,7 @@
   margin-top: 40px;
 }
 
+
 .list_item a {
   display: block;
   position: relative;
@@ -111,6 +112,15 @@
 .list_itemLight a {
   color: black;
   font-weight: 800;
+  
+}
+
+.listItemMobile a {
+  border-bottom: 2px solid white;
+  padding-bottom: 5px;
+  width: 60%;
+  color: white;
+  font-family: 600;
 }
 
 .logoImg {
@@ -221,7 +231,8 @@
   }
 
   .darkAndLanMobile {
-    right: 2%;
+    margin-left: 50px;
+    display: flex;
   }
 
 

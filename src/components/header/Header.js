@@ -43,16 +43,16 @@ function Header({ darkMode, setDarkMode, language, setLanguage }) {
           </label>
           <div className="nav_ani">
             <ul class="listNavigation">
-              <li class={`list_item ${darkMode ? "list_itemLight" : ""}`}>
+              <li class={`list_item listItemMobile ${darkMode ? "list_itemLight" : ""}`}>
                 <a href="#profile">{language ? "Sobre mí" : "About me"}</a>
               </li>
-              <li class={`list_item ${darkMode ? "list_itemLight" : ""}`}>
+              <li class={`list_item listItemMobile ${darkMode ? "list_itemLight" : ""}`}>
                 <a href="#skills">{language ? "Habilidades" : "Skills"}</a>
               </li>
-              <li class={`list_item ${darkMode ? "list_itemLight" : ""}`}>
+              <li class={`list_item listItemMobile ${darkMode ? "list_itemLight" : ""}`}>
                 <a href="#freelanceAndProjects">{language ? "Proyectos" : "Projects"}</a>
               </li>
-              <li class={`list_item ${darkMode ? "list_itemLight" : ""}`}>
+              <li class={`list_item listItemMobile ${darkMode ? "list_itemLight" : ""}`}>
                 <a href="#contact">{language ? "Contactame" : "Contact me"}</a>
               </li>
             </ul>
