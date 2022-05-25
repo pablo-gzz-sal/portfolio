@@ -13,7 +13,7 @@ import diocletians from "../../images/diocletians.PNG"
 
 function FreelanceAndProjects({darkMode, language}) {
   return (
-    <section className="freelanceAndProjects" >
+    <section className="freelanceAndProjects" id="freelanceAndProjects">
       <div className="projectsSection">
         <h2 className="titleProjects">{language ? "Proyectos" : "Projects"}</h2>
         <div className="projects">

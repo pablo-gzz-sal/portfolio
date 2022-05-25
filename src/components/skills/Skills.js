@@ -7,7 +7,7 @@ import oxygen from "../../images/oxygenbuilder-logo.jpg";
 
 function Skills({ darkMode, language }) {
   return (
-    <section className={darkMode ? "skillsLight skills" : "skills"}>
+    <section className={darkMode ? "skillsLight skills" : "skills"} id="skills">
       <h2 className="titleSkills">{language ? "Habilidades Técnicas" : "Technical Skills"}</h2>
       <div className="columnsSkills">
         <span

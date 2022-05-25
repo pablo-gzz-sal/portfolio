@@ -4,7 +4,7 @@ import Form from "../form/Form"
 
 function Contact({darkMode, language}) {
     return (
-        <section className={`contact ${darkMode ? "contactLight" : ""}`}>
+        <section className={`contact ${darkMode ? "contactLight" : ""}`} id="contact">
             <h2 className="titleContact">{language ? "Contáctame" : "Contact Me"}</h2>
             <div className="containerContactInfo">
                 <span className="containerInd">

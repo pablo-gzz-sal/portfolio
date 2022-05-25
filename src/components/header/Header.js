@@ -20,7 +20,7 @@ function Header({ darkMode, setDarkMode, language, setLanguage }) {
           : "Hi! I'm Pablo and I'm a front-end developer."}
       </h1>
       <span className="arrowHP">
-        <a href="#aboutme" target="_self">
+        <a href="#profile" target="_self">
           <i
             class={
               darkMode
@@ -44,16 +44,16 @@ function Header({ darkMode, setDarkMode, language, setLanguage }) {
           <div className="nav_ani">
             <ul class="listNavigation">
               <li class={`list_item ${darkMode ? "list_itemLight" : ""}`}>
-                <a href="#episodios">{language ? "Sobre mí" : "About me"}</a>
+                <a href="#profile">{language ? "Sobre mí" : "About me"}</a>
               </li>
               <li class={`list_item ${darkMode ? "list_itemLight" : ""}`}>
-                <a href="#nosotros">{language ? "Habilidades" : "Skills"}</a>
+                <a href="#skills">{language ? "Habilidades" : "Skills"}</a>
               </li>
               <li class={`list_item ${darkMode ? "list_itemLight" : ""}`}>
-                <a href="#entrevistas">{language ? "Proyectos" : "Projects"}</a>
+                <a href="#freelanceAndProjects">{language ? "Proyectos" : "Projects"}</a>
               </li>
               <li class={`list_item ${darkMode ? "list_itemLight" : ""}`}>
-                <a href="#topicos">{language ? "Contactame" : "Contact me"}</a>
+                <a href="#contact">{language ? "Contactame" : "Contact me"}</a>
               </li>
             </ul>
             <div className="darkAndLanMobile">
@@ -65,16 +65,16 @@ function Header({ darkMode, setDarkMode, language, setLanguage }) {
         <div className="menuBar">
           <ul class="list">
             <li class={`list_item ${darkMode ? "list_itemLight" : ""}`}>
-              <a href="#episodios">{language ? "Sobre mí" : "About me"}</a>
+              <a href="#profile">{language ? "Sobre mí" : "About me"}</a>
             </li>
             <li class={`list_item ${darkMode ? "list_itemLight" : ""}`}>
-              <a href="#nosotros">{language ? "Habilidades" : "Skills"}</a>
+              <a href="#skills">{language ? "Habilidades" : "Skills"}</a>
             </li>
             <li class={`list_item ${darkMode ? "list_itemLight" : ""}`}>
-              <a href="#entrevistas">{language ? "Proyectos" : "Projects"}</a>
+              <a href="#freelanceAndProjects">{language ? "Proyectos" : "Projects"}</a>
             </li>
             <li class={`list_item ${darkMode ? "list_itemLight" : ""}`}>
-              <a href="#topicos">{language ? "Contactame" : "Contact me"}</a>
+              <a href="#contact">{language ? "Contactame" : "Contact me"}</a>
             </li>
           </ul>
         </div>

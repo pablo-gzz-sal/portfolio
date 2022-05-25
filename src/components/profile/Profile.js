@@ -4,7 +4,7 @@ import "./Profile.css";
 
 function Profile({darkMode, language}) {
   return (
-    <section className="profile">
+    <section className="profile" id="profile">
       <div className="profilePicture">
         <img className="imageAbout" src={pp} alt="profilePicture" />
       </div>
